@@ -6,7 +6,7 @@ This project contains two independent FastAPI microservices:
 1. patient-service (port 8000)
 2. staff-service (port 8001)
 
-Each service uses its own SQLite database (for easy local testing).
+Each service uses its own SQL database.
 They communicate via REST: patient-service calls staff-service to validate staff when creating appointments.
 
 How to run (locally)
