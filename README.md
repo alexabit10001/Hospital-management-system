@@ -7,7 +7,7 @@ This project contains two independent FastAPI microservices:
 2. staff-service (port 8001)
 
 Each service uses its own SQL database.
-They communicate via REST: patient-service calls staff-service to validate staff when creating appointments.
+They communicate via REST: patient-service calls staff-service to validate staff when creating appointments
 
 
 How to run (locally)
@@ -25,8 +25,8 @@ How to run (locally)
    - uvicorn main:app --reload --port 8000
 
 
-2. Create a JWT token (simple helper in patient-service/auth.py). For quick testing you can temporarily comment out token dependency.
+2. Create a JWT token (simple helper in patient-service/auth.py). For quick testing you can temporarily comment out token dependency
 
 Notes
 -----
-- This is a demo using SQLite for convenience. To use MySQL, change DATABASE_URL to your MySQL connection string in database.py files and install pymysql, then create the DBs.
+- This is a demo using SQLite for convenience. To use MySQL, change DATABASE_URL to your MySQL connection string in database.py files and install pymysql, then create the DBs
