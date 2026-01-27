@@ -9,6 +9,7 @@ This project contains two independent FastAPI microservices:
 Each service uses its own SQL database.
 They communicate via REST: patient-service calls staff-service to validate staff when creating appointments.
 
+
 How to run (locally)
 --------------------
 1. Create virtualenv and install deps for each service:
@@ -22,6 +23,7 @@ How to run (locally)
    - cd patient-service
    - install deps and run:
    - uvicorn main:app --reload --port 8000
+
 
 2. Create a JWT token (simple helper in patient-service/auth.py). For quick testing you can temporarily comment out token dependency.
 
