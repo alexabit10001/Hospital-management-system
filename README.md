@@ -9,7 +9,6 @@ This project contains two independent FastAPI microservices:
 Each service uses its own SQL database.
 They communicate via REST: patient-service calls staff-service to validate staff when creating appointments
 
-
 How to run (locally)
 --------------------
 1. Create virtualenv and install deps for each service:
