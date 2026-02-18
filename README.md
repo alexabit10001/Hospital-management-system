@@ -1,4 +1,4 @@
-Hospital Microservices demo
+Hospital Managment Microservices 
 ==========================
 
 This project contains two independent FastAPI microservices:
