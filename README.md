@@ -26,6 +26,7 @@ How to run (locally)
 
 2. Create a JWT token (simple helper in patient-service/auth.py). For quick testing you can temporarily comment out token dependency
 
+
 Notes
 -----
 - This is a demo using SQLite for convenience. To use MySQL, change DATABASE_URL to your MySQL connection string in database.py files and install pymysql, then create the DBs
